@@ -1,5 +1,36 @@
+/*
+
+1. #05386B blue
+2. #379683 dark green
+3. #5CDB95 green
+4. #8EE4AF light green
+5. #EDF5E1 tan
+
+*/
+
+
+body {
+    background: #5CDB95;
+}
+
+header {
+    
+}
+
 h1 {
-    color: #ffffff;
+    color: #05386B;
+    font-family: 'Fugaz One', fugaz-one;
+    font-size: 350%;
+}
+
+input {
+    margin-top: 1%;
+
+    background: #8EE4AF;
+    -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
+    
+    font-family: 'Fugaz One', fugaz-one;
+
 }
 
 div.main {
@@ -11,10 +42,9 @@ div.main {
     align-items: center;
     justify-content: center;
 
-    width: 50%;
-    height: 100%;
+    width: 55%;
 
-    background-color:#81c784
+    background-color:#05386B;
 
 
 }
