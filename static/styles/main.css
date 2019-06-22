@@ -1,41 +1,32 @@
-/*
-
-1. #05386B blue
-2. #379683 dark green
-3. #5CDB95 green
-4. #8EE4AF light green
-5. #EDF5E1 tan
-
-*/
-
-
 body {
-    background: #5CDB95;
+    background: black;
 }
 
-header {
-    
+img {
+   border-radius: 35px;
 }
 
-h1 {  
-    color: #05386B;
+h1 { 
+    background: black;
+    color: wheat;
+
     font-family: 'Fugaz One', fugaz-one;
-    font-size: 350%;
+    font-size: 250%;
 }
 
 input {
     margin-top: 1%;
 
-    background: #8EE4AF;
-    -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
-    
+    background: #ffffff;
     font-family: 'Fugaz One', fugaz-one;
-
 }
 
 div.main {
     margin: auto auto;
     padding: 5%;
+
+    border-radius: 15px;
+
 
     display: flex;
     flex-direction: column;
@@ -43,8 +34,8 @@ div.main {
     justify-content: center;
 
     width: 55%;
-
-    background-color:#05386B;
+    
+    background-color:wheat;
 
 
 }

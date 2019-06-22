@@ -31,11 +31,11 @@ def upload_file():
             flash('No selected file')
             return redirect(request.url)
         if file:
-            filename = 'static/img/' + file.filename
+            filename = 'static/img/userimg/' + file.filename
             file.save(filename)
             process_image(filename)
 
-        return render_template('index1.html', imgsrc='img/' + file.filename)
+        return render_template('index1.html', imgsrc='img/userimg/' + file.filename)
 
 
 def process_image(path):
@@ -79,4 +79,5 @@ def detect_faces(img):
             minNeighbors=2,
             minSize=(30,30),
     )
+
     return faces
